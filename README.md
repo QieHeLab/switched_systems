@@ -12,7 +12,7 @@ This directory contains code for the forward dynamic programming algorithm (FDP)
 
 ## How to run the code
 
-The script 'gen_instance_and_solve_by_FDP.m' generates all the test instances and then solves them with FDP. The test results will be stored in the *.dat files. 
+The script 'gen_instance_and_solve_by_FDP.m' generates all the test instances and then solves them with FDP. The test results will be stored in the \*.dat files. 
 
 1. There are 10 combinations of parameters. For each combination, the script generates 10 random instances.
 2. There is a time limit of 600s to run FDP for each instance.
@@ -27,4 +27,6 @@ To solve the instances by AMPL, please first run
     
     $gen_instances_ampl.m
 
-in Matlab to generate *.dat files for AMPL and then run 'switched_system_baron.run' in AMPL to solve the instances.
+in Matlab to generate \*.dat files for AMPL and then run 'switched_system_baron.run' in AMPL to solve the instances.
+
+

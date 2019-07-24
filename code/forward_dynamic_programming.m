@@ -37,8 +37,8 @@ tic
 %full-dimensional polytope. 
 K_initial = 4;
 
-%When n > 5, our algorithm employs Matlab’s build-in function convhulln to
-%construct the set of extreme points directly. When n <= 6, our algorithm
+%When n <= 5, our algorithm employs Matlab’s build-in function convhulln to
+%construct the set of extreme points directly. When n >= 6, our algorithm
 %solves a linear program with the commercial solver Gurobi to identify each
 %extreme point. 
 
